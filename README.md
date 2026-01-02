@@ -1,1 +1,3 @@
-# mern-stack-dec
+mern stack internship 2026
+brainybeam 
+webdevelopment

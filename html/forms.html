@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend><mark>demo form</mark></legend>
+        <!-- Name: -->
+        <!--<label for="Name">Name:</label>-->
+        <input type="text" name="name" id="name" placeholder="Name" required value="ABC"><br><br>
+
+        <!--email:-->
+       <label for="Email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Email" required SIZE="40"><br><br>
+
+        <label for="Password">Password:</label>
+       <input type="password" name="password" id="password" placeholder="Password" required><br><br>
+
+        <!--radio button-->
+        <lable for="choose">choose your favorite web language</lable><br>
+        <input type="radio" name="fav_lag" id="" value="html">
+        <lable for="html">HTML</lable><br>
+
+        <input type="radio" name="fav_lag" id="" value="css">
+        <lable for="html">CSS</lable><br>
+
+         <input type="radio" name="fav_lag" id="" value="javascript">
+        <lable for="html">JAVASCRIPT</lable><br><br>
+         
+
+         <!--checkbox-->
+         <lable for="color">select your fav color</lable><br>
+         <input type="checkbox" name="color1" id="" value="red">
+         <lable for="red">RED</lable><br>
+
+         <input type="checkbox" name="color2" id="" value="blue">
+         <lable for="red">BLUE</lable><br>
+
+          <input type="checkbox" name="color3" id="" value="black">
+         <lable for="red">BLACK</lable><br><br>
+
+         <!--colours-->
+         <lable for="colours">select a color:</lable><br>
+         <input type="color" name="colours" id="">
+
+         <!--date-->
+         <lable for="DOB">D.O.B</lable>
+         <input type="date" name="DOB" id="">
+
+         <lable for="datemax">enter a date before 2002-01-01: </lable>
+         <input type="date" name="datemax" id="" max="2001-10-31"><br><br>
+
+         <!--date time local-->
+         <lable for="datetime">enter a date and time</lable>
+         <input type="datetime-local" name="datetime" id=""><br><br>
+
+         <!--image-->
+         <lable for="image">Image</lable>
+         <input type="image" src="tree.jpeg" alt="tree" width="50" height="50"><br><br>
+
+         <!--file-->
+         <lable for="file">select a file:</lable>
+         <input type="file" name="file" id=""><br><br> 
+
+         <!--number-->
+         <lable for="age">enter your age:</lable>
+         <input type="number" name="Age" id=""><br><br>
+
+         <!--tel-->
+         <lable for="phone">enter your phn number:</lable>
+         <input type="tel" name="phone" id="" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" placeholder="123-5476-899"><br>
+
+         <!--SELECT-->
+         <lable for="languages">web languages:</lable><br>
+         <select name="lang" id="" size="3" multiple>
+            <option value=html>HTML</option>
+            <option value=css>CSS</option>
+            <option value=javascript>JAVASCRIPT</option>
+           <option value=react>REACT</option>
+         </select><br><br>
+
+         <!--textarea-->
+         <lable for="address">address:</lable>
+         <textarea name="address" id="" rows="10" cols="30"></textarea><br><br>
+
+
+    <button type="submit"> Submit </button>
+    <button type="reset"> Reset </button>
+    <button type="disabled"> Disabled </button>
+    </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,46 @@
+h2{
+    color:firebrick;
+    text-align: justify;
+    text-align-last: left;
+   
+
+    /*text direction  */
+    direction:rtl;
+    unicode-bidi: bidi-override;
+}
+
+    /* vertical align: ; */
+
+img.a{
+    vertical-align: baseline;
+
+}
+img.b{
+    vertical-align: text-top;
+}
+img.c{
+    vertical-align: bottom;
+}
+img.d{
+    vertical-align:sub;
+}
+img.e{
+    vertical-align: super;
+}
+p.spacing{
+   text-transform: uppercase; 
+
+   /* text spacing */
+   text-indent: 20px;   /*first line indent*/
+   letter-spacing: 7px;
+   line-height: 25px;
+   word-spacing: 20px;
+
+}
+p.text_shadow{
+    text-shadow: 0px 8px 3px red;
+}
+
+p.text_shadow1{
+    text-shadow: 0 0 3px rgb(119, 0, 255),0 0 5px;
+}

@@ -1,0 +1,35 @@
+ul{
+    list-style-type: square;
+}
+/* ol{ */
+    /* border:2px solid black;
+    list-style-type: none; */
+    /* list-style-type: lower-alpha; */
+    list-style-position: inside ;
+    /* list-style-image: url(/tree.jpeg); */
+/* } */
+
+ol.color{
+    background-color: antiquewhite;
+    padding:25px;
+
+}
+
+ul.color{
+    background-color: burlywood;
+    padding: 20px;
+}
+
+ol.color li{
+    background-color: rgb(229, 224, 255);
+    padding: 5px;
+    margin-left: 30px;
+    list-style-position: inside;
+    
+}
+
+ul.color li{
+    background-color: cornflowerblue;
+    margin:5px;
+
+}

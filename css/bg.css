@@ -1,0 +1,28 @@
+body{
+    /*background-color: rgb(243, 240, 255);*/
+    
+
+    /*
+    color name
+    hex values(#ff0000)
+    rgb values(rgb(255,0,0))
+
+    */
+
+    /*images*/
+
+    /* background-image: url(/flower.jpg);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed; */
+
+    /*shorthend*/
+    background:url(/flower.jpg) no-repeat right top fixed ;
+
+}
+
+/*.opacity{
+    background-color: rgb(138, 118, 118);
+    opacity:0.4;
+}*/

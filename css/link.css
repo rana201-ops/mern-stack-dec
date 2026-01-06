@@ -1,0 +1,54 @@
+/* unvisited link */
+a:link{
+    color: chocolate;
+    /* shorthand of text decoration */
+    text-decoration: none;
+    background-color: darkcyan;
+}
+
+/* visited link */
+a:visited link{
+    color: blueviolet;
+}
+
+/* mouse over link(hover) */
+a:hover{
+    color: darkcyan;
+    text-decoration-line:underline overline;
+    text-decoration-color: brown;
+    text-decoration-thickness: 3px;
+    text-decoration-style: solid;
+}
+/* selected linl(active */
+a:active{
+    color: darkgreen;
+    text-decoration-line: line-through;
+}
+
+.btn:link, .btn:visited{
+    background-color: rgb(226, 70, 43);
+    color: ghostwhite;
+    padding:15px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn:hover, .btn:active{
+    background-color: rgb(207, 88, 88);
+    color: black;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.btn2:link, .btn2:visited{
+    background-color: white;
+    color: black;
+    border:3px solid rgb(236, 232, 226);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn2:hover, .btn2:active{
+    background-color: rgb(245, 231, 220);
+}

@@ -1,0 +1,29 @@
+table,th,td{
+    /* border-style:solid ;
+    border-width: 3px;
+    border-color: aqua; */
+
+    /* shorthand */
+    border:solid 3px gray;
+    border-collapse: collapse;
+
+}
+
+th{
+    background-color: rgb(80, 158, 158);
+}
+
+th,td{
+    text-align:center ;
+    height:50px;
+    vertical-align: top;
+}
+tr:nth-child(odd){
+    background-color: gold;
+}
+.left-border{
+    background-color: darksalmon;
+    border-right: solid 3px black;
+    border-radius: 6px;
+    margin:10px;
+}
